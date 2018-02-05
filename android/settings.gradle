@@ -1,3 +1,11 @@
 rootProject.name = 'CarReg'
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
+include ':react-native-hunterslog-media-picker'
+project(':react-native-hunterslog-media-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-hunterslog-media-picker/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-fetch-blob'
+project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
 
 include ':app'

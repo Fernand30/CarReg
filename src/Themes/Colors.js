@@ -3,7 +3,8 @@ const colors = {
   background: '#37646F',
   white: '#fff',
   black: '#000',
-  inactiveIndicator: "#bbb"
+  inactiveIndicator: "#bbb",
+  bora: "#80198f"
 };
 
 export default colors;
